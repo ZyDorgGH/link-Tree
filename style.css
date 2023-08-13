@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    max-width: 700px;
+    width: 100%;
+    margin:0 auto;
+    padding: 7px 2px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('Kalsith.jpg');
+    border: 4px solid black;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.logo_youtube > img{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 70%;
+    animation: zoomIn;
+    animation-duration: 2s;
+}
+
+.nama_gua{
+    max-width: 400px;
+    width: 80%;
+    margin: auto;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    animation: shakeX;
+    animation-duration: 2s;
+
+}
+.nama_gua > h1{
+    margin: 15px;
+    padding: 10px;
+    border: 4px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  font-size: 20px;
+}
+
+main {
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    
+ 
+}
+div > a{
+    display:flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 8px 20px;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    
+}
+.titlesosmed{
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+    padding: 3px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid black;
+  border-left: auto;
+  border-right: auto;
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+.motivation{
+    height: 5vh;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(157, 255, 0);
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-text-stroke: 0.6px black;
+    animation: zoomIn;
+    animation-duration: 3s;
+}
+
+
+
+
+.discord{
+    animation: lightSpeedInLeft;
+    animation-duration: 2s;
+}
+.discord:hover{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: #5661f6;
+    color: white;
+    cursor: pointer;
+}
+
+.facebook{
+    animation: lightSpeedInRight;
+    animation-duration: 2s;
+}
+.facebook:hover{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: #0f90f3;
+    color: white;
+    cursor: pointer;
+}
+
+.instagram{
+    animation: lightSpeedInLeft;
+    animation-duration: 2s;
+}
+.instagram:hover{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: #ff0090;
+    color: white;
+    cursor: pointer;
+}
+
+.twitter{
+    animation: lightSpeedInRight;
+    animation-duration: 2s;
+}
+.twitter:hover{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: #1d9bf0;
+    color: white;
+    cursor: pointer;
+}
+
+.youtube{
+    animation: lightSpeedInLeft;
+    animation-duration: 2s;
+}
+.youtube:hover{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
